@@ -1,0 +1,25 @@
+{
+  "name": "librarian-mysql-storage",
+  "version": "1.0.0",
+  "description": "LibrarianJS mysql storage plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/librarianjs/mysql-storage.git"
+  },
+  "author": "Josh Vanderwillik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/librarianjs/mysql-storage/issues"
+  },
+  "homepage": "https://github.com/librarianjs/mysql-storage",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "lodash.merge": "^4.0.2",
+    "mysql": "^2.6.2",
+    "promise-wait": "^1.0.0"
+  }
+}
