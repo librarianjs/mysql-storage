@@ -1,7 +1,7 @@
 'use strict'
 
 var MYSQL_PASSWORD = 'testpassword'
-var MYSQL_CONTAINER = 'librarian_test'
+var MYSQL_CONTAINER = 'librarian_mysql_storage_test'
 var MYSQL_TABLE = 'files'
 var MYSQL_SCHEMA = require('fs').readFileSync(__dirname + '/schema.sql')
 

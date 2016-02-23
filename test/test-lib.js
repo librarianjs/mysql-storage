@@ -8,7 +8,7 @@ const MysqlStorage = require('../')
 const TEST_KEY = 'test-key'
 const FAKE_KEY = 'fake-key'
 const TEST_DATA = fs.readFileSync(__dirname + '/test_upload_image.jpg')
-const TEST_TIMEOUT = 10000
+const TEST_TIMEOUT = 20000
 
 describe('MysqlStorage', () => {
   var db = makeDb()
